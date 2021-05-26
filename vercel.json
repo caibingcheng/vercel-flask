@@ -1,9 +1,9 @@
 {
     "version": 2,
     "builds": [
-        { "src": "main.py", "use": "@now/python" }
+        { "src": "index.py", "use": "@liudonghua123/now-flask" }
     ],
     "routes": [
-        { "src": "/(.*)", "dest": "main.py" }
+        { "src": "/(.*)", "dest": "/" }
     ]
 }
